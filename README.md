@@ -1,4 +1,9 @@
-# bun-react-template
+# React Project Template
+```
+bun create yoonseo23/react-template-yoon
+```
+
+## bun-react-template
 
 To install dependencies:
 
