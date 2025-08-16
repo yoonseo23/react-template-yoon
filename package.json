@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "bun --hot src/index.tsx",
     "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
-    "start": "NODE_ENV=production bun src/index.tsx"
+    "start": "NODE_ENV=production bun src/index.tsx",
+    "format:check": "prettier --check --cache \"src/**/*.{js,jsx,ts,tsx,json}\"",
+    "format:fix": "prettier --write --cache --list-different \"src/**/*.{js,jsx,ts,tsx,json}\""
   },
   "dependencies": {
     "react": "^19.1.1",
