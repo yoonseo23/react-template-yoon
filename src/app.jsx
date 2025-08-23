@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import reactLogo from "./react.svg";
-import "./styles/index.css";
+import logo from "/logo.svg";
+import reactLogo from "/react.svg";
+import "./styles/app.css";
 
 export function App() {
   return (
     <div className="app">
-      <div className="logo-container">
+      <div className="title-area">
         <img src={logo} alt="Bun Logo" className="logo bun-logo" />
         <img src={reactLogo} alt="React Logo" className="logo react-logo" />
       </div>
