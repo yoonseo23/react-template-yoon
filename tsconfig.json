@@ -5,8 +5,10 @@
     "target": "ESNext",
     "module": "Preserve",
     "moduleDetection": "force",
+    "types": ["vite/client"],
     "jsx": "react-jsx",
     "allowJs": true,
+    "checkJs": true,
 
     // Bundler mode
     "moduleResolution": "bundler",
